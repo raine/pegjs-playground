@@ -1,0 +1,10 @@
+const path = require('path')
+const parse = require('./parse')(path.basename(__filename, '.js') + '.pegjs')
+
+parse('Uunikirjolohta / Tilliperunasosetta')
+parse('Luomugranolaa M VEG Testing VL L')
+parse('Luomugranolaa M VEG ja Testing VL L')
+parse('Luomugranolaa M VEG, Testing VL L')
+parse('Runsaasti kauden kasviksista tehtyjä salaatteja ja proteiinilisukkeena Raejuustoa L G ja Paahtopaistia M G')
+parse('Mustikkarahkaa L G Luomu-granolaa M/ hedelmä')
+parse('Marjasalaattia M G Kinuskijogurttia VL G/ hedelmä')
